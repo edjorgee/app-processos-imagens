@@ -1,0 +1,123 @@
+{
+  "versao": 1,
+  "processo": {
+    "nome": "Cadastro de Unidades de Medida e Alternativas",
+    "descricao": "Orientar os usuários quanto ao correto cadastro e utilização das Unidades de Medida e Unidades Alternativas no sistema Sankhya.",
+    "codigo": "CAD-004",
+    "versao": "1.0",
+    "departamento": "Cadastros Mestres",
+    "pdf": "https://docs.google.com/document/d/1ntzJeenni3ucwww9g-sYgtvxbY-Qrdcz5tb8yNAVPL0/edit?tab=t.0#heading=h.zgnt9fkctfqk",
+    "video": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um1.gif",
+    "nativo": false,
+    "ultimaAtualizacao": "2026-06-08",
+    "lido": false
+  },
+  "detalhe": {
+    "sections": [
+      {
+        "type": "texto",
+        "titulo": "Quando usar",
+        "conteudo": "Quando houver necessidade de inserir em um item, diversas unidades de medida praticadas por ele. Deste modo, espera-se uma conversão de unidades de medida de maneira íntegra em um processo de suprimentos e faturamento."
+      },
+      {
+        "type": "passo_a_passo",
+        "titulo": "Passo a passo",
+        "conteudo": [
+          {
+            "texto": "1. Configurações > Cadastros > Produtos > Unidades;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um1.jpg"
+          },
+          {
+            "texto": "2. Aperte “Enter” para listar todas as unidades ou clique em “Novo registro”;",
+            "imagem": null
+          },
+          {
+            "texto": "3. Insira a Sigla da unidade (ex: gr);",
+            "imagem": null
+          },
+          {
+            "texto": "4. Insira a descrição da unidade (ex: grama);",
+            "imagem": null
+          },
+          {
+            "texto": "5. Caso necessário, insira as casas decimais da quantidade desta unidade;",
+            "imagem": null
+          },
+          {
+            "texto": "6. Clique no ícone “Salvar”;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um2.jpg"
+          },
+          {
+            "texto": "7. Clique no ícone \"Modo grade\" após salvar para listar todas as unidades de medida em forma de tabela, ou clique no ícone \"Modo formulário\" para detalhar e editar a unidade de medida selecionada no grid;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um3.jpg"
+          },
+          {
+            "texto": "8. Para aplicar a unidade de medida padrão em um item, basta acessar a rotina do cadastro de produto (Configurações > Cadastros > Produtos), em seguida na aba \"Geral';",
+            "imagem": null
+          },
+          {
+            "texto": "9. Defina a unidade padrão que a empresa trabalha internamente no campo “Unidade padrão”;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um4.jpg"
+          },
+          {
+            "texto": "10. Mais abaixo da aba Geral, insira a unidade de medida de compra no campo “Unid Compra”;",
+            "imagem": null
+          },
+          {
+            "texto": "11. Salve o registro (símbolo do check);",
+            "imagem": null
+          },
+          {
+            "texto": "12. Acesse a aba “Unidades Alternativas”;",
+            "imagem": null
+          },
+          {
+            "texto": "13. Clique no símbolo do “ + “ para criar uma nova regra de unidade alternativa;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um5.jpg"
+          },
+          {
+            "texto": "14. Insira a unidade alternativa a ser convertida para a unidade padrão no campo “Unidade\";",
+            "imagem": null
+          },
+          {
+            "texto": "15 Escolha o fator de conversão se vai multiplicar ou dividir no campo “Operação”;",
+            "imagem": null
+          },
+          {
+            "texto": "16 Insira o valor da unidade que vai multiplicar ou dividir no campo “Quantidade”;",
+            "imagem": null
+          },
+          {
+            "texto": "17 Insira o valor do multiplicador do valor no campo “Multiplicador do valor”;",
+            "imagem": null
+          },
+          {
+            "texto": "18 Marque a tag “Ativo” para ativar esta regra;",
+            "imagem": null
+          },
+          {
+            "texto": "19 Clicar no símbolo de “Salvar” para cadastrar a nova regra da Unidade Alternativa;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/suprimentos/evolution/um6.jpg"
+          },
+          {
+            "texto": "20. O que o sistema entende?",
+            "imagem": null
+          },
+          {
+            "texto": "01 Unidade (UN) corresponde à 6 Metros da UM  padrão (unidade padrão da empresa).",
+            "imagem": null
+          },
+          {
+            "texto": "Na aba “Geral”, foi cadastrada a unidade padrão que a empresa opera. Sendo assim, o sistema entende que deve pegar a quantidade da unidade desta aba e multiplicar 6 vezes pela unidade padrão da aba “Geral”.",
+            "imagem": null
+          }
+        ]
+      },
+      {
+        "type": "texto",
+        "titulo": "Pontos de atenção",
+        "conteudo": "1. Cadastrar previamente a Unidade de Medida padrão;\n\n2. Preencher corretamente o fator de conversão;\n\n3. Definir corretamente a operação (Multiplicar ou Dividir);\n\n4. Validar e ativar a regra antes da utilização;"
+      }
+    ]
+  }
+}
