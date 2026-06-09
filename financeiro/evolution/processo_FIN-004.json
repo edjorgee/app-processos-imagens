@@ -1,0 +1,111 @@
+{
+  "versao": 1,
+  "processo": {
+    "nome": "Movimentação Financeira no Sankhya",
+    "descricao": "Processo com finalidade de registrar, consultar e controlar receitas, despesas e provisões financeiras da empresa, independentemente da origem do lançamento.",
+    "codigo": "FIN-004",
+    "versao": "1.0",
+    "departamento": "Financeiro",
+    "pdf": "https://docs.google.com/document/d/1iitmHB-CA5GLmIgf_OHsTwxYegF-_sx0WKVlEZbroM0/edit?tab=t.0",
+    "video": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc1.gif",
+    "nativo": false,
+    "ultimaAtualizacao": "2026-06-09",
+    "lido": false
+  },
+  "detalhe": {
+    "sections": [
+      {
+        "type": "texto",
+        "titulo": "Quando usar",
+        "conteudo": "Quando houver necessidade de registrar, consultar ou controlar receitas, despesas e provisões financeiras."
+      },
+      {
+        "type": "passo_a_passo",
+        "titulo": "Passo a passo",
+        "conteudo": [
+          {
+            "texto": "1. Acessar a rotina Financeiro > Movimentação Financeira;",
+            "imagem": null
+          },
+          {
+            "texto": "2. Clicar no botão \"Lançar Título\";",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc1.jpg"
+          },
+          {
+            "texto": "3. Acessar o menu “Lançamento” e definir se vai ser uma Despesa ou Receita;",
+            "imagem": null
+          },
+          {
+            "texto": "3.1 Definir a empresa para onde vai ser direcionada a despesa ou receita;",
+            "imagem": null
+          },
+          {
+            "texto": "3.2 Definir o Parceiro, ou seja, o fornecedor ou cliente ou pessoa;",
+            "imagem": null
+          },
+          {
+            "texto": "3.3 Marque a TAG “Provisão” caso se trate de uma projeção financeira;",
+            "imagem": null
+          },
+          {
+            "texto": "3.4 Insira o número da Nota Fiscal, Recibo ou Fatura. Caso seja uma provisão, o valor é “0”;",
+            "imagem": null
+          },
+          {
+            "texto": "3.5 Insira o valor total da despesa ou receita no campo “Vlr do Desdobramento”;",
+            "imagem": null
+          },
+          {
+            "texto": "3.6 Insira a data de lançamento em “Dt. Negociação” e vencimento em “Dt. Vencimento”;",
+            "imagem": null
+          },
+          {
+            "texto": "3.7 Insira o Histórico deste lançamento;",
+            "imagem": null
+          },
+          {
+            "texto": "3.8 Insira o Banco e a Conta que vai pagar ou receber este lançamento;",
+            "imagem": null
+          },
+          {
+            "texto": "3.9 Insira valores de desconto, juros ou multa ou taxas extras, caso necessário;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc2.jpg"
+          },
+          {
+            "texto": "4. Clicar em Salvar;",
+            "imagem": null
+          },
+          {
+            "texto": "-----------",
+            "imagem": null
+          },
+          {
+            "texto": "5. Para consultar uma Movimentação, filtrar conforme regra do negócio. Os botões predefinidos encontram-se no canto superior e é possível combinar eles;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc3.jpg"
+          },
+          {
+            "texto": "6. O sistema mostra o resultado no grid, onde é possível observar a Origem do lançamento, bem como o tipo de processo aplicado a ele (TOP). O número único é o número do título;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc4.jpg"
+          },
+          {
+            "texto": "7. Clicando no botão + Filtros é possível obter outras combinações;",
+            "imagem": null
+          },
+          {
+            "texto": "8. Para transformar um título Provisão em uma Despesa ou Receita real, filtrar a característica do Título no botão Real + Provisão e selecionar \"Provisão\". A coluna \"Provisão\" indica o valor \"Sim\";",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc5.jpg"
+          },
+          {
+            "texto": "9. Em seguida, clicar duas vezes no título, desmarcar a tag \"Provisão\", inserir o número da Nota ou Recibo e clicar em \"Salvar\";",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/lc6.jpg"
+          }
+        ]
+      },
+      {
+        "type": "texto",
+        "titulo": "Pontos de atenção",
+        "conteudo": "Provisões de despesas e receitas futuras;\nAjustes e lançamentos financeiros manuais.\nTaxas bancárias;\nReceitas financeiras sem origem comercial;\nContas de energia, água, telefone e internet;"
+      }
+    ]
+  }
+}
