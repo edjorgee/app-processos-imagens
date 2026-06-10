@@ -1,0 +1,67 @@
+{
+  "versao": 1,
+  "processo": {
+    "nome": "Histórico Bancário no Sankhya",
+    "descricao": "Processo que visa identificar, classificar e automatizar as movimentações financeiras de liquidação, provenientes das contas bancárias da empresa.",
+    "codigo": "FIN-006",
+    "versao": "1.0",
+    "departamento": "Financeiro",
+    "pdf": "https://docs.google.com/document/d/12-UqLFd5oNN6bKYohRQ8JaWmmp4Fi0EcMuKdCXjk6sc/edit?tab=t.0",
+    "video": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/hist1.gif",
+    "nativo": false,
+    "ultimaAtualizacao": "2026-06-10",
+    "lido": false
+  },
+  "detalhe": {
+    "sections": [
+      {
+        "type": "texto",
+        "titulo": "Quando usar",
+        "conteudo": "Sempre que houver necessidade de cadastrar, consultar ou alterar Históricos Bancários, especialmente para automatizar a conciliação bancária, a importação de extratos OFX e o registro de tarifas, taxas e demais movimentações financeiras identificadas nos bancos."
+      },
+      {
+        "type": "passo_a_passo",
+        "titulo": "Passo a passo",
+        "conteudo": [
+          {
+            "texto": "3.1 Acessar a rotina:",
+            "imagem": null
+          },
+          {
+            "texto": "Financeiro > Arquivos > Cadastros >",
+            "imagem": null
+          },
+          {
+            "texto": "Históricos de Lançamentos Bancários",
+            "imagem": null
+          },
+          {
+            "texto": "3.2 Clicar em Novo Registro ou clique no grid para listar os históricos cadastrados;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/hist1.jpg"
+          },
+          {
+            "texto": "3.4 Informar a Descrição do Histórico;",
+            "imagem": null
+          },
+          {
+            "texto": "3.5 Definir o Tipo do Lançamento:",
+            "imagem": null
+          },
+          {
+            "texto": "Débito ou Crédito;",
+            "imagem": null
+          },
+          {
+            "texto": "3.6 Clicar em Salvar.",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/hist2.jpg"
+          }
+        ]
+      },
+      {
+        "type": "texto",
+        "titulo": "Pontos de atenção",
+        "conteudo": "Manter os Históricos Bancários padronizados;\n\nValidar os lançamentos gerados automaticamente durante a conciliação bancária."
+      }
+    ]
+  }
+}
