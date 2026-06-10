@@ -1,0 +1,115 @@
+{
+  "versao": 1,
+  "processo": {
+    "nome": "Naturezas de Receita e Despesa no Sankhya",
+    "descricao": "As Naturezas de Receitas e Despesas (Contas Gerenciais) são utilizadas para classificar financeiramente as movimentações da empresa, permitindo a geração de relatórios e análises gerenciais.",
+    "codigo": "FIN-005",
+    "versao": "1.0",
+    "departamento": "Financeiro",
+    "pdf": "https://docs.google.com/document/d/1BR2RNCsBjqrASnj7KNe-j4MIiKYCc-T2u-IJXmJyIPs/edit?tab=t.0",
+    "video": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat1.gif",
+    "nativo": false,
+    "ultimaAtualizacao": "2026-06-10",
+    "lido": false
+  },
+  "detalhe": {
+    "sections": [
+      {
+        "type": "texto",
+        "titulo": "Quando usar",
+        "conteudo": "Este procedimento deve ser utilizado sempre que houver necessidade de consultar, criar ou alterar Naturezas de Receitas e Despesas no Sankhya."
+      },
+      {
+        "type": "passo_a_passo",
+        "titulo": "Passo a passo",
+        "conteudo": [
+          {
+            "texto": "O cadastro de Naturezas segue uma regra lógica que está relacionada aos seus códigos. Ex: A Natureza 101000 Receitas Operacionais é uma conta PAI. Já a \"subnatureza\" 101001 Receitas de Serviços é uma conta FILHA. Todas elas estão dentro de outra conta PAI chamada 100000 RECEITAS.",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat1.jpg"
+          },
+          {
+            "texto": "1. Acessar Configurações > Cadastros > Gerencial > Naturezas de Receitas e Despesas;",
+            "imagem": null
+          },
+          {
+            "texto": "2. Clicar em Novo Registro para cadastrar uma nova Natureza ou em Mostrar Grade para consultar as existentes;",
+            "imagem": null
+          },
+          {
+            "texto": "3. Clique duas vezes em uma Natureza para edita-la;",
+            "imagem": null
+          },
+          {
+            "texto": "4. Informar o Código da Natureza conforme a hierarquia definida;",
+            "imagem": null
+          },
+          {
+            "texto": "5. Informar a Descrição da Natureza;",
+            "imagem": null
+          },
+          {
+            "texto": "6. Definir se a Natureza será Analítica ou Sintética:",
+            "imagem": null
+          },
+          {
+            "texto": "- Analítica marcada: recebe lançamentos financeiros.",
+            "imagem": null
+          },
+          {
+            "texto": "- Analítica desmarcada: funciona como conta Pai/agrupadora.",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat2.jpg"
+          },
+          {
+            "texto": "7. Definir o Tipo da Natureza: Receita ou Despesa;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat3.jpg"
+          },
+          {
+            "texto": "8. Clicar em Salvar.",
+            "imagem": null
+          },
+          {
+            "texto": "9. Caso haja um erro ao editar uma Natureza, o usuário deve liberar a autorização na rotina de \"Configurações > Avançado> Autorização de Customizações\";",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat4.jpg"
+          },
+          {
+            "texto": "10. Selecionar a aba \"Campos Adicionais\" e localizar o campo adicional proveniente do erro;",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat5.jpg"
+          },
+          {
+            "texto": "11. Clicar em \"Gerar código de liberação\" para o sistema enviar um e-mail com um código de autorização;",
+            "imagem": null
+          },
+          {
+            "texto": "12. Clicar no botão \"Informar código\" e insira o código enviado por e-mail e em seguida no botão \"Liberar\". Agora será possível editar;",
+            "imagem": null
+          },
+          {
+            "texto": "---- Exemplo de cadastro de uma Conta PAI ----",
+            "imagem": null
+          },
+          {
+            "texto": "A diferença é marcar ou desmarcar a tag \"Analítica\".",
+            "imagem": null
+          },
+          {
+            "texto": "Desmarcar = PAI = Sintética;",
+            "imagem": null
+          },
+          {
+            "texto": "Marcar = FILHA = Analítica.",
+            "imagem": "https://raw.githubusercontent.com/edjorgee/app-processos-imagens/main/financeiro/evolution/nat6.jpg"
+          },
+          {
+            "texto": "Preste atenção que se ambas começam com numeração igual, então elas terão relacionamento.",
+            "imagem": null
+          }
+        ]
+      },
+      {
+        "type": "texto",
+        "titulo": "Pontos de atenção",
+        "conteudo": "Planejar a estrutura e a codificação antes de iniciar os lançamentos;\n\nDefinir corretamente se a Natureza é Sintética (Pai) ou Analítica (Filha);\n\nClassificar corretamente o Tipo da Natureza (Receita ou Despesa);\n\nRespeitar a hierarquia dos códigos e a relação entre Natureza Pai e Filha;"
+      }
+    ]
+  }
+}
